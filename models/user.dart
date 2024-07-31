@@ -1,0 +1,71 @@
+class User {
+  String? firstName;
+  String? lastName;
+  String? email;
+  String? password;
+
+  User(String firstName, String lastName, String email, String password) {
+    this.firstName = firstName;
+    this.lastName = lastName;
+    this.email = email;
+    this.password = password;
+  }
+
+  String toString() {
+    return 'first name: $firstName , last name: $lastName , email: $email , password: $password';
+  }
+
+  static Map<String, dynamic> toJson(User user) {
+    return {
+      "firstName": user.firstName,
+      "lastName": user.lastName,
+      "email": user.email,
+      "password": user.password,
+    };
+  }
+
+  static User fromJson(Map<String, dynamic> jsonn) {
+    return User(
+      jsonn["firstName"],
+      jsonn["lastName"], 
+      jsonn["email"],
+      jsonn["password"]
+      
+    );
+  }
+
+//  List<User> users = [];
+
+//  var usersMap = users.map((e){
+
+//   return {
+//     "firstName": e.firstName,
+//     "lastName": e.lastName,
+//     "email": e.email,
+//     "password": e.password
+//   };
+
+//  }).toList();
+
+  // factory User.fromJson(Map<String, dynamic> json) {
+  //   return User(
+  //       firstName: json['firstName'],
+  //       lastName: json['lastName'],
+  //       email: json['email'],
+  //       password: json['password']);
+  // }
+
+  // static Map<String, dynamic> toJson(User user) {
+  //   return {
+  //     "firstName": user.firstName,
+  //     "lastName": user.lastName,
+  //     "email": user.email,
+  //     "password": user.password,
+  //   };
+  // }
+
+  // static User fromJson(Map<String, dynamic> json) {
+  //   return User(json['firstName'] as String, json['lastName'] as String,
+  //       json['email'] as String, json['password'] as String);
+  // }
+}

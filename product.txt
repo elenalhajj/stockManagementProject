@@ -1,0 +1,1 @@
+[{productName: relief, barCode: 2223223, cost: 2, cell: 2}]
