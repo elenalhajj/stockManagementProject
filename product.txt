@@ -1,1 +1,1 @@
-[{productName: relief, barCode: 2223223, cost: 2, cell: 2}]
+[{"productName":"relief","barCode":6,"cost":9087,"cell":98},{"productName":"flagyl","barCode":56,"cost":98,"cell":9987},{"productName":"panadol","barCode":4,"cost":78,"cell":9}]

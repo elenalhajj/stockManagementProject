@@ -1,0 +1,14 @@
+[
+    {
+        "productName": "relief",
+        "barCode": 2223223,
+        "cost": 2,
+        "cell": 2
+    },
+    {
+        "productName": "yefwy",
+        "barCode": 2787,
+        "cost": 27,
+        "cell": 2
+    }
+]

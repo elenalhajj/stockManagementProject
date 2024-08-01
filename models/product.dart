@@ -25,11 +25,6 @@ class Product {
 
   static Product fromJson(Map<String, dynamic> jsonn) {
     return Product(
-      jsonn["productName"], 
-      jsonn["barCode"], 
-      jsonn["cost"], 
-      jsonn["cell"]
-      
-    );
+        jsonn["productName"], jsonn["barCode"], jsonn["cost"], jsonn["cell"]);
   }
 }

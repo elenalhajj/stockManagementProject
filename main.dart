@@ -1,15 +1,9 @@
 import 'dart:io';
-import 'models/user.dart';
 import 'utils.dart';
 
+
 Utils utils = new Utils();
-
 void main() {
-//   // write to file'
-  //  productFile.writeAsStringSync('{"name":"elena","age":13}');
-//   print('File written.');
-
-  // print('File written.');
   String? authentication_option;
   do {
     print(
@@ -35,30 +29,7 @@ void main() {
     }
   } while (authentication_option != '3');
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
   utils.getUserInfo();
-
-  void usersList() {
-    List<User> users = [];
-    for (User user in users) {
-      print(user);
-    }
-  }
 }
 
 void productMenu() {
