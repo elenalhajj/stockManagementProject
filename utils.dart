@@ -5,8 +5,8 @@ import 'models/product.dart';
 import 'models/user.dart';
 
 class Utils {
-  File userFile = File('user.txt');
-  File productFile = File('product.txt');
+  File userFile = File('user.json');
+  File productFile = File('product.json');
 
   List<User> users = [];
   List<Product> products = [];

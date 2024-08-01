@@ -1,14 +1,32 @@
 [
     {
         "productName": "relief",
-        "barCode": 2223223,
-        "cost": 2,
-        "cell": 2
+        "barCode": 6,
+        "cost": 9087,
+        "cell": 98
     },
     {
-        "productName": "yefwy",
-        "barCode": 2787,
-        "cost": 27,
-        "cell": 2
+        "productName": "flagyl",
+        "barCode": 56,
+        "cost": 98,
+        "cell": 9987
+    },
+    {
+        "productName": "panadol",
+        "barCode": 4,
+        "cost": 78,
+        "cell": 9
+    },
+    {
+        "productName": "Dawa",
+        "barCode": 23,
+        "cost": 2343,
+        "cell": 34
+    },
+    {
+        "productName": "morfiin",
+        "barCode": 23421,
+        "cost": 3,
+        "cell": 34
     }
 ]
