@@ -76,7 +76,7 @@ void productMenu() {
 
       case "4":
         print('Delete the product you want.');
-        print('Enter product name:');
+        print('Enter product barCode:');
         int? code = int.parse(stdin.readLineSync()!);
         productShop.deleteProduct(code);
         break;

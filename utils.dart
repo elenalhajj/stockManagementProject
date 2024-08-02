@@ -1,6 +1,5 @@
 import 'dart:io';
 import 'dart:convert';
-
 import 'models/product.dart';
 import 'models/user.dart';
 
@@ -75,11 +74,10 @@ class Utils {
         product.cost = newCost;
         product.cell = newCell;
         print('Product $newProductName has been updated.');
-    List<dynamic> jsonProducts =
+        List<dynamic> jsonProducts =
             products.map((products) => Product.toJson(products)).toList();
         productFile.writeAsStringSync(json.encode(jsonProducts));
-         products.add(Product("$newProductName", newCode, newCost, newCell));
-    
+        products.add(Product("$newProductName", newCode, newCost, newCell));
 
         return true;
       }
